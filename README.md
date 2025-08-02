@@ -1,5 +1,5 @@
 # Site Crawler
-Let site-crawl,crawl. So you don't have to!
+Let site-crawl, crawl. So you don't have to!
 
 ### Installation
 ```
