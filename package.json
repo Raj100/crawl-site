@@ -1,20 +1,43 @@
 {
   "name": "site-crawl",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.4",
+  "description": "A CLI tool to recursively crawl websites and download content",
+  "main": "./bin/site-crawl.js",
   "bin": {
-    "crawl-site": "bin/crawl-site.js"
+    "site-crawl": "bin/site-crawl.js"
   },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/site-crawl.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "site-crawl",
+    "web-crawler",
+    "scraper",
+    "web-scraper",
+    "headless-browser",
+    "automation",
+    "data-extraction",
+    "cli",
+    "command-line-tool"
+  ],
+  "author": "Raj Rawariya ravariyaraj@gmail.com",
   "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raj100/site-crawl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Raj100/site-crawl/issues"
+  },
+  "homepage": "https://github.com/Raj100/site-crawl#readme",
   "dependencies": {
     "axios": "^1.11.0",
     "cheerio": "^1.1.2",

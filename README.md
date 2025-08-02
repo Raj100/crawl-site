@@ -35,6 +35,10 @@ site-crawl -u "https://example.com/start" -f .pdf,.docx -d infinite -p 10 --dyna
 site-crawl -u "https://example.com/private" -H "Authorization:Bearer YOUR_TOKEN" -H "Accept-Language:en-US"
 ```
 
+- For Javascript based dynamically served sites
+```
+site-crawl -u "https://nitgoa.vercel.app/" -d 3 -p 5 -f .pdf --dynamic
+```
 
 
 
