@@ -1,5 +1,5 @@
 {
-  "name": "crawl-site",
+  "name": "site-crawl",
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
