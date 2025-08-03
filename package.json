@@ -38,6 +38,7 @@
     "url": "https://github.com/Raj100/site-crawl/issues"
   },
   "homepage": "https://github.com/Raj100/site-crawl#readme",
+  "type": "module",
   "dependencies": {
     "axios": "^1.11.0",
     "cheerio": "^1.1.2",
