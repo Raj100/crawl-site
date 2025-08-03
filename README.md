@@ -19,7 +19,11 @@ npm install -g site-crawl
 
 '-P, --password <password>' -> PDF decryption password
 
-'-o, --output <path>' -> Output directory
+'-o, --output <path>' -> Output directory (default: current location)
+
+'-t, --timeout <number>' -> Output directory (default: 10000ms)
+
+'-r, --max-retries <number>' -> Output directory (default: 3)
 
 '-e, --errors <file>' -> Error log file (default: errors.txt)
 

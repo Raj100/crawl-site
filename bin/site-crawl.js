@@ -12,6 +12,8 @@ program
   .option('-H, --header <header...>', 'Custom headers (Key:Value)')
   .option('-P, --password <password>', 'PDF decryption password')
   .option('-o, --output <path>', 'Output directory', '.')
+  .option('-t, --timeout <number>', 'timeout', '10000')
+  .option('-r, --max-retries <number>', 'max_retries', '3')
   .option('-e, --errors <file>', 'Error log file', 'errors.txt')
   .option('--dynamic', 'Use Puppeteer to render JS-based pages')
   .parse(process.argv);
