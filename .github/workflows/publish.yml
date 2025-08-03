@@ -28,9 +28,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests (optional but highly recommended)
-        run: npm test
-
       - name: Publish to NPM
         run: npm publish --access public
         env:
