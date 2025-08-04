@@ -7,27 +7,29 @@ npm install -g site-crawl
 ```
 
 ### Usage 
-'-u, --url <url>' -> Start URL
+  -u, --url <url>             Start URL
 
-'-p, --parallel <number>' -> No. of Parallel downloads (default: 5)
+  -p, --parallel <number>     Parallel downloads (default: "5")
 
-'-d, --depth <depth>', -> Max crawl depth (number or "infinite") (default: 3)
+  -d, --depth <depth>         Max crawl depth (number or "infinite") (default: "3")
 
-'-f, --filetypes <types>' ->  Comma-separated extensions (default: .pdf)
+  -f, --filetypes <types>     Comma-separated extensions (default: .pdf) (default: ".pdf")
 
-'-H, --header <header...>' -> Custom headers (Key:Value)
+  -H, --header <header...>    Custom headers (Key:Value)
 
-'-P, --password <password>' -> PDF decryption password
+  -P, --password <password>   PDF decryption password
 
-'-o, --output <path>' -> Output directory (default: current location)
+  -o, --output <path>         Output directory (default: ".")
 
-'-t, --timeout <number>' -> Output directory (default: 10000ms)
+  -t, --timeout <number>      timeout (default: "10000")
 
-'-r, --max-retries <number>' -> Output directory (default: 3)
+  -r, --max-retries <number>  max_retries (default: "3")
 
-'-e, --errors <file>' -> Error log file (default: errors.txt)
+  -e, --errors <file>         Error log file (default: "errors.txt")
 
-'--dynamic' -> Use Puppeteer to render JS-based pages
+  --dynamic                   Use Puppeteer to render JS-based pages
+  
+  -h, --help                  display help for command
 
 ### Example usage 
 ```
